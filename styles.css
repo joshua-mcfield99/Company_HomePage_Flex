@@ -1,0 +1,53 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'BoldBrush';
+    src: url('/Fonts/BoldBrush.eot');
+    src: url('/Fonts/BoldBrush.woff2') format('woff2'),
+         url('/Fonts/BoldBrush.woff') format('woff'),
+         url('/Fonts/BoldBrush.ttf') format('truetype'),
+         url('/Fonts/BoldBrush.svg#svgBoldBrush') format('svg');
+}
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('/Fonts/YuGothicUI-Regular.eot');
+    src: url('/Fonts/YuGothicUI-Regular.woff2') format('woff2'),
+         url('/Fonts/YuGothicUI-Regular.woff') format('woff'),
+         url('/Fonts/YuGothicUI-Regular-02.ttf') format('truetype'),
+         url('/Fonts/YuGothicUI-Regular.svg#svgYuGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('/Fonts/YuGothicUI-Light.eot');
+    src: url('/Fonts/YuGothicUI-Light.woff2') format('woff2'),
+         url('/Fonts/YuGothicUI-Light.woff') format('woff'),
+         url('/Fonts/YuGothicUI-Light-02.ttf') format('truetype'),
+         url('/Fonts/YuGothicUI-Light.svg#svgYuGothic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('YuGothic-Bold.eot.eot');
+    src: url('/Fonts/YuGothic-Bold.woff2') format('woff2'),
+         url('/Fonts/BoldBrush.woff') format('woff'),
+         url('/Fonts/YuGothic-Bold-01.ttf') format('truetype'),
+         url('/Fonts/YuGothic-Bold.svg#svgYuGothic') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Resets*/
+
+html body {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/*Global/Base styling*/
