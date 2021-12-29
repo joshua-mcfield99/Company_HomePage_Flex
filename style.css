@@ -56,6 +56,7 @@ html {
     font-family: 'Yu Gothic';
     font-weight: normal;
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 .title {
@@ -174,10 +175,12 @@ nav .kickoff:hover {
 .about {
     width: 100%;
     display: flex;
-    margin-top: 79px;
+    vertical-align: middle;
     align-self: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    position: relative;
+    top: 100px;
 }
 
 .us {
@@ -191,7 +194,6 @@ nav .kickoff:hover {
 
 .weAre {
     width: 30%;
-    margin-bottom: 400px;
     text-align: left;
     line-height: 1.8rem;
     align-self: center;
@@ -202,7 +204,6 @@ nav .kickoff:hover {
     font-size: 2rem;
     text-align: center;
     align-self: center;
-    margin-bottom: 400px;
     padding: 10%;
     background-image: url(./images/coloursBG.png);
     background-size: cover;
@@ -210,3 +211,21 @@ nav .kickoff:hover {
 }
 
 /* Our Work */
+
+.work {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+}
+
+.our {
+    font-size: 3rem;
+    width: 100%;
+    align-self: flex-start;
+    text-align: center;
+    margin-top: 100px;
+}
