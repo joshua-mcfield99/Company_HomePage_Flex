@@ -76,7 +76,7 @@ strong {
 
 .pageitem {
     width: 100%;
-    height: 800px;
+    height: 847px;
     justify-content: center;
 }
 
@@ -149,7 +149,7 @@ nav .kickoff:hover {
 
 .banner {
     position: relative;
-    top: 77px;
+    top: 100px;
     background-image: url(./images/WhitBluecracks.jpg);
     background-size: cover;
     display: flex;
@@ -208,3 +208,5 @@ nav .kickoff:hover {
     background-size: cover;
     border-radius: 2rem;
 }
+
+/* Our Work */
