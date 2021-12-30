@@ -237,7 +237,7 @@ nav .kickoff:hover {
     width: 90%;
     text-align: center;
     margin: 0 auto;
-    
+    line-height: 1.8rem;
 }
 
 .work-p-small {
@@ -282,6 +282,39 @@ nav .kickoff:hover {
     top: 100px;
     width: 100%;
     display: flex;
-
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.face-title {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.face-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.face-item img {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.face-item h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.face-item p {
+    width: 100%;
+    text-align: center;
+    line-height: 1.8rem;
 }
