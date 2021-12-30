@@ -272,7 +272,7 @@ nav .kickoff:hover {
 
 .workitem:hover {
     width: 60%;
-    transition: 50ms;
+    transition: 500ms;
 }
 
 /*Our faces*/
