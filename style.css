@@ -239,6 +239,20 @@ nav .kickoff:hover {
     line-height: 1.8rem;
 }
 
+.work-p a {
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.work-p a:hover {
+    background-color: #88C8EC;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+
 .work-p-small {
     width: 90%;
     text-align: center;
@@ -332,7 +346,8 @@ nav .kickoff:hover {
     width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    row-gap: 5px;
 }
 
 .contact-us {
@@ -350,13 +365,13 @@ nav .kickoff:hover {
 }
 
 .contact img{
-    width: 40%;
+    width: 45%;
     height: fit-content;
     vertical-align: middle;
 }
 
 .contact-right {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -392,9 +407,22 @@ nav .kickoff:hover {
     font-weight: bold;
 }
 
+.email:hover {
+    color: black;
+    background-color: white;
+}
+
+.whatsapp:hover {
+    color: white;
+    background-color: #ECE588;
+}
+
+
 /*Footer*/
 
 footer {
+    position: relative;
+    top: 100px;
     overflow: hidden;
     background-color: #88C8EC;
 }
