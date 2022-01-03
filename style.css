@@ -279,7 +279,7 @@ nav .kickoff:hover {
 
 .faces {
     position: relative;
-    top: 100px;
+    top: 0px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -327,5 +327,74 @@ nav .kickoff:hover {
 
 .contact {
     position: relative;
-    top: 200px;
+    top: 100px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-us {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+.we-have {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+.contact img{
+    width: 40%;
+    height: fit-content;
+    vertical-align: middle;
+}
+
+.contact-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-right h3 {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-button {
+    text-align: center;
+    width: 40%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none
+}
+
+.whatsapp {
+    border: 3px solid #ECE588;
+    color: black;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+}
+
+.email {
+    background-color: #d7b3ff;
+    border: 3px solid #d7b3ff;
+    color: white;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+    overflow: hidden;
+    background-color: #88C8EC;
 }
