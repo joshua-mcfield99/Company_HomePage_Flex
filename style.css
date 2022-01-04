@@ -159,15 +159,11 @@ nav .kickoff:hover {
 }
 
 .banner h1 {
-    width: 45%;
+    width: 60%;
     font-family: 'BoldBrush';
     font-size: 6rem;
     text-align: center;
     align-self: center;
-    background-image: url(./images/Code.png);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 
 /*About Us*/
@@ -380,6 +376,7 @@ nav .kickoff:hover {
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .contact-right h3 {
@@ -387,6 +384,7 @@ nav .kickoff:hover {
     height: fit-content;
     text-align: center;
     vertical-align: middle;
+    
 }
 
 .contact-button {
@@ -395,7 +393,7 @@ nav .kickoff:hover {
     height: fit-content;
     padding: 10px;
     border-radius: 25px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .whatsapp {
@@ -403,6 +401,7 @@ nav .kickoff:hover {
     color: black;
     font-family: "Yu Gothic";
     font-weight: bold;
+    transition: 200ms;
 }
 
 .email {
@@ -411,16 +410,39 @@ nav .kickoff:hover {
     color: white;
     font-family: "Yu Gothic";
     font-weight: bold;
+    transition: 200ms;
 }
 
 .email:hover {
     color: black;
     background-color: white;
+    transition: 200ms;
 }
 
 .whatsapp:hover {
     color: white;
     background-color: #ECE588;
+    transition: 200ms;
+}
+
+.fiver-button {
+    text-align: center;
+    width: 60%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #1dbf73;
+    border: 3px solid #1dbf73;
+    color: white;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.fiver-button:hover {
+    width: 100%;
+    transition: 500ms;
 }
 
 
@@ -455,4 +477,19 @@ footer {
 .logo h2 {
     width: fit-content;
     color: white;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+footer li a:hover {
+    color: #ECE588;
+}
+
+.copyrite {
+    position: relative;
+    top: 165px;
 }
